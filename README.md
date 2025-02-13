@@ -1,2 +1,2 @@
 # mcio
-micro st
+micro strt

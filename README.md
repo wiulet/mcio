@@ -1,5 +1,5 @@
 micro 
-curl -s https://raw.githubusercontent.com/zunxbt/logo/main/logo.sh | bash
+curl -s 
 sleep 3
 
 BOLD=$(tput bold)

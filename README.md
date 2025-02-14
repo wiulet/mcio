@@ -1,4 +1,4 @@
-micro 
+micr 
 curl -s 
 sleep 3
 

@@ -10,7 +10,7 @@ YELLOW='\033[1;33m'
 show() {
     case $2 in
         "error")
-            echo -e "${PINK}${BOLD}❌ $1${NORMAL}"
+            echo -e "${PINK}${BOLD} {NORMAL}"
             ;;
         "progress")
             echo -e "${PINK}${BOLD}⏳ $1${NORMAL}"

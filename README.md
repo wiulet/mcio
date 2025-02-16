@@ -13,7 +13,7 @@ show() {
             echo -e "${PINK}${BOLD} {NORMAL}"
             ;;
         "progress")
-            echo -e "${PINK}${BOLD}⏳ $1${NORMAL}"
+            echo -e "${PINK}${BOLD} $1${NORMAL}"
             ;;
         *)
             echo -e "${PINK}${BOLD}✅ $1${NORMAL}"

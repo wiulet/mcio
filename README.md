@@ -21,7 +21,7 @@ show() {
     esac
 }
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" & pwd)"
 cd "$SCRIPT_DIR" || exit
 
 install_dependencies() {

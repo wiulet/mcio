@@ -1,5 +1,5 @@
 micr 
-curl -s 
+curl -s 1
 sleep 3
 
 BOLD=$(tput bold)

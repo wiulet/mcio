@@ -1,6 +1,6 @@
 micro
 curl -s 
-sleep 2
+sleep 
 
 BOLD=$(tput bold)
 NORMAL=$(tput sgr0)

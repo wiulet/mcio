@@ -5,7 +5,7 @@ sleep
 BOLD=$(tput bold)
 NORMAL=$(tput sgr0)
 PINK='\036[1;35m'
-YELLOW='\033[1;33m'
+YELLOW='\033[1;3m'
 
 show() {
     case $2 in

@@ -46,7 +46,7 @@ install_dependencies() {
 }
 
 input_required_details() {
-    echo -e "-----------------------------------"
+    echo -e "---------------------------------"
     if [ -f "$SCRIPT_DIR/token_deployment/.env" ]; then
         rm "$SCRIPT_DIR/token_deployment/.env"
     fi

@@ -1,4 +1,4 @@
-micr
+icr
 curl 
 sleep 
 

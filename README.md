@@ -138,7 +138,7 @@ deploy_multiple_contracts() {
             TOKEN_NAME=$ORIGINAL_TOKEN_NAME
         fi
         deploy_contract "$i"
-        echo -e "-----------------------------------"
+        echo -e "---------------------------------"
     done
 }
 

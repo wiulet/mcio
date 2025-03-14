@@ -77,7 +77,7 @@ show "Updated files with your given data"
 }
 
 deploy_contract() {
-    echo -e "-----------------------------------"
+    echo -e "----------------------------------"
     source "$SCRIPT_DIR/token_deployment/.env"
 
     local contract_number=$1

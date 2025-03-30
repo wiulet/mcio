@@ -3,7 +3,7 @@ curl
 sleep1 
 
 BOLD=$(tput bold)
-NORMAL=$(tput sr0)
+NORMAL=$(tputsr0)
 PINK='\036[1;35m'
 YELLOW='\033[1;3m'
 

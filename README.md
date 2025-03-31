@@ -127,7 +127,7 @@ deploy_multiple_contracts() {
         exit 1
     fi
 
-    ORIGINAL_TOKEN_NAME=$TOKEN_NAME
+    ORIGINAL_NAME=$TOKEN_NAME
 
     for (( i=1; i<=NUM_CONTRACTS; i++ ))
     do

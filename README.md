@@ -52,7 +52,7 @@ input_required_details() {
     fi
 
     read -p "Enter your Private Key: " PRIVATE_KEY
-    read -p "Enter the token name (e.g., Zun Token): " TOKEN_NAME
+    read -p "Enter the token name (e.g., Zun Token TOKEN_NAME
     read -p "Enter the token symbol (e.g., ZUN): " TOKEN_SYMBOL
     read -p "Enter the network rpc url: " RPC_URL
 

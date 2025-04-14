@@ -63,7 +63,7 @@ TOKEN_NAME="$TOKEN_NAME"
 TOKEN_SYMBOL="$TOKEN_SYMBOL"
 EOL
 
-    source "$SCRIPT_DIR/token_deployment/.env"
+    source "$SCRIPT_DIR/token_deployment/.env
     cat <<EOL > "$SCRIPT_DIR/foundry.toml"
 [profile.default]
 src = "src"

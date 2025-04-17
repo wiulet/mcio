@@ -30,7 +30,6 @@ install_dependencies() {
     if [ ! -d ".git" ]; then
         show "Initializing Git repository..." "progress"
         git init
-    fi
 
     if ! command -v forge &> /dev/null; then
         show "Foundry is not installed. Installing now..." "progress"

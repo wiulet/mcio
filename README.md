@@ -159,8 +159,7 @@ menu() {
         2)
             input_required_details
             ;;
-        3)
-            deploy_multiple_contracts
+     
             ;;
         4)
             exit 0

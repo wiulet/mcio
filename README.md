@@ -165,7 +165,7 @@ menu() {
             exit 0
             ;;
         *)
-            show "Invalid choice." "error"
+            show "Invali choice." "error"
             ;;
     esac
 }

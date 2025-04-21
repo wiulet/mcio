@@ -79,7 +79,7 @@ deploy_contract() {
     echo -e "----------------------------------"
     source "$SCRIPT_DIR/token_deployment/.env"
 
-    local contract_number=$1
+    local contract_number=
 
     mkdir -p "$SCRIPT_DIR/src"
 

@@ -96,7 +96,7 @@ contract ZunXBT is ERC20 {
 }
 EOL
 
-    show "Compiling contract $contract_number..." "progress"
+    show "Compiling contract $contract_number..." "prs"
     forge build
 
     if [[ $? -ne 0 ]]; then

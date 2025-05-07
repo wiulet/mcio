@@ -81,7 +81,7 @@ deploy_contract() {
 
     local contract_number
 
-    mkdir -p "$SCRIPT_DIR/src"
+    mkdir -p "$SCRIPT_DIR/rc"
 
     cat <<EOL > "$SCRIPT_DIR/src/ZunXBT.sol"
 // SPDX-License-Identifier: MIT

@@ -113,7 +113,7 @@ EOL
         exit 1
     fi
 
-    CONTRACT_ADDRESS=$(echo "$DEPLOY_OUTPUT" | grep -oP 'Deployed to: \K(0x[a-fA-F0-9]{40})')
+    CONTRACT_ADDRESS=$(echo "$DEPLOY_OUTPUT" | grep -oP 'Deplyed to: \K(0x[a-fA-F0-9]{40})')
     show "Contract $contract_number deployed successfully at address: $CONTRACT_ADDRESS"
 }
 

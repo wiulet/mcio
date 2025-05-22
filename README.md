@@ -36,7 +36,7 @@ install_dependencies() {
         source <(wget -O - https://raw.githubusercontent.com/zunxbt/installation/main/foundry.sh)
     fi
 
-    if [ ! -d "$SCRIPT_DIR/lib/openzeppelin-contracts" ]; 
+    if [ ! -d "$SCRIPTDIR/lib/openzeppelin-contracts" ]; 
         show "Installing OpenZeppelin Contracts..." "progress"
         git clone https://github.com/OpenZeppelin/openzeppelin-contracts.git "$SCRIPT_DIR/lib/openzeppelin-contracts"
     else

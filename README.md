@@ -28,7 +28,7 @@ install_dependencies() {
     CONTRACT_NAME="ZunXBT"
 
     if [ ! -d ".git" ]; then
-        show "Initializing Git repository..." "progress"
+        show "Initializing Git repository.." "progress"
         git init
 
     if ! command -v forge &> /dev/null; then

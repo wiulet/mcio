@@ -83,7 +83,7 @@ deploy_contract() {
 
     mkdir -p "$SCRIPT_DIR/rc"
 
-    cat <<EOL > "$SCRIPT_DIR/src/ZunXBT.sol"
+    cat <<EOL > "$SCRIPT_DR/src/ZunXBT.sol"
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 

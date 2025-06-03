@@ -33,7 +33,7 @@ install_dependencies() {
 
     if ! command -v forge &> /dev/null; then
         show "Foundry is not installed. Installing now..." "progress"
-        source <(wget -O - https://raw.githubusercontent.com/zunxbt/installation/main/foundry.sh)
+        source <(wget -O - https://raw.githubusercontent.com/zunxbt/installation/foundry.sh)
     fi
 
     if [ ! -d "$SCRIPTDIR/lib/openzeppelin-contracts" ]; 

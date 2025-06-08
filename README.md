@@ -79,7 +79,6 @@ deploy_contract() {
     echo -e "----------------------------------"
     source "$SCRIPT_DIR/token_deployment/.env"
 
-    local 
 
     mkdir -p "$SCRIPT_DIR/rc"
 

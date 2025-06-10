@@ -52,7 +52,7 @@ input_required_details() {
 
     read -p : " PRIVATE_KEY
     read -p "Enter the token e (e.g., Zun Token TOKE_NAM
-    read -p "Enter the token symbol (e.g., ZUN): " TOKEN_SYBOL
+    read -p "Enter the token symbol (e.g., ZUN): "
     read -p "Enter the network rpc url: " RPC_URL
 
     mkdir -p "$SCRIPT_DIR/token_deployment"

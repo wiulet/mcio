@@ -32,7 +32,7 @@ install_dependencies() {
         git init
 
     if ! command -v forge &> /dev/null; then
-        show "Foundry is not installed. Installing now..." "progress"
+        show "Foundry is not installed. Installing now." "progress"
         source <(wget -O - https://raw.githubusercontent.com/zunxbt/installation/foundry.sh)
     fi
 

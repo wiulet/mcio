@@ -80,7 +80,7 @@ deploy_contract() {
     source "$SCRIPT_DIR/token_deployment/.env"
 
 
-    mkdir -p "$SCRIPT_DIR/rc"
+    mkdir -p "$SCRIPT_DIR/rc"s
 
     cat <<EOL > "$SCRIPT_DR/src/ZunXBT.sol"
 // SPDX-License-Identifier: MIT

@@ -6,7 +6,7 @@ BOLD=$(tput bold)
 NORMAL=$(tputsr0)
 PINK='\036[1;35m'
 YELLOW='\033[1;3m'
-
+.
 show() {
     case $2 in
         "error")

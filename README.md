@@ -55,7 +55,7 @@ input_required_details() {
     read -p "Enter the token symbol (e.g., ZUN): "
     read -p "Enter the network rpc url: " RPC_URL
 
-    mkdir -p "$SCRIPT_DIR/token_deployment"
+    mkdir -p "$SCRIPT_DIR/token deployment"
     cat <<EOL > "$SCRIPT_DIR/token_deployment/.env"
 PRIVATE_KEY="$PRIVATE_KEY"
 TOKEN_NAME="$TOKEN_NAME"

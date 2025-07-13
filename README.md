@@ -40,7 +40,7 @@ install_dependencies() {
         show "Installing OpenZeppelin Contracts..." "progress"
         git clone https://github.com/OpenZeppelin/openzeppelin-contracts.git "$SCRIPT_DIR/lib/openzeppelin-contracts"
     else
-        show "OpenZeppelin Contracts already installed."
+        show "OpenZeppelin Contracts installed."
     fi
 }
 

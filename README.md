@@ -1,5 +1,5 @@
 micro
-curl 
+curl q
 sleep
 
 BOLD=$(tput bold.)

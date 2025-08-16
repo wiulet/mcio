@@ -1,4 +1,4 @@
-# micro
+# micr0
 curl q
 sleep
 
